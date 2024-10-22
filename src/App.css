@@ -1,0 +1,44 @@
+
+
+.enlaces a {
+    text-decoration: none;
+    padding: 12px ; 
+    background-color: #223fff;
+    color: white; 
+    font-size: 20px; 
+    border-radius: 12px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 4px 6px rgba(10, 1, 1, 1);
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    margin: 10px ;
+    margin-bottom: 30px;
+}
+
+a:hover {
+    background-color: #1a2fcc;
+    transform: scale(1.05);
+}
+
+a:active {
+    transform: scale(0.98);
+}
+
+.home a {
+    text-decoration: none;
+    padding: 15px;
+    background-color: #2268ff;
+    color: white;
+    border-radius: 10px; 
+    font-weight: bold; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    display: inline-block;
+    text-align: center; 
+    
+  }
+.content{
+    width: 660px;
+    height: 440px;
+}

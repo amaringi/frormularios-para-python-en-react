@@ -1,0 +1,115 @@
+body {
+  background-image: url('./assets/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.enlaces {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 660px;
+  height: 90px;
+}
+.content{
+  width: 660px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.479);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -90px;
+}
+.home {
+  list-style: none; 
+  width: 300px; 
+  padding: 0;
+  margin: 20px;
+  display: flex;
+  flex-direction: column; 
+}
+
+.home li {
+  margin-bottom: 20px;
+}
+
+
+
+.home a:hover {
+  background-color: #1a30d4; 
+  transform: scale(1.05); 
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: rgb(58, 58, 58);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+}
+
+
+
+
+.formulario-container {
+  width: 660px;
+  height: 440px;
+  background-color: rgba(255, 255, 255, 0.479);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+.navegacion{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  a {
+      color: black;
+      text-decoration: none;
+
+  }
+}
+/* Estilos de la barra de navegación */
+.navegacion {
+  list-style: none;
+  display: flex; 
+  justify-content: center;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.navegacion li {
+  margin: 0 10px;
+}
+
+.content{
+  width: 660px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.479);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#signupForm button {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.footer{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
