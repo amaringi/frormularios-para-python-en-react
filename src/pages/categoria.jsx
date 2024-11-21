@@ -3,9 +3,8 @@ import Footer from "./footer";
 export default function Categoria() {
   return (
     <div>
-      <div className="container">
         <div className="row">
-          <div className="col-md-6 mx-auto formulario-container">
+          <div className="formulario-container">
             <h1 className="text-center">CATEGORIA</h1>
             <form id="signupForm">
               <div className="form-group">
@@ -49,10 +48,9 @@ export default function Categoria() {
                 Enviar Datos
               </button>
             </form>
-          </div>
-          <Footer/>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

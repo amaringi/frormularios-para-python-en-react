@@ -4,9 +4,8 @@ export default function Ingreso(){
 
     return(
         <div>
-    <div className="container">
         <div className="row">
-            <div className="col-md-6 mx-auto formulario-container">
+            <div className="formulario-container">
                 <h1 className="text-center">INGRESOS</h1>
                 <form id="signupForm">
                     <div className="form-group">
@@ -24,9 +23,8 @@ export default function Ingreso(){
                     <button type="submit" className="btn btn-primary btn-block mt-4">Enviar Datos</button>
                 </form>
             </div>
-            <Footer/>
         </div>
+        <Footer/>
     </div>
-        </div>
     )
 }

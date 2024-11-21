@@ -4,7 +4,7 @@ export default function Error(){
 
     return(
         <div>
-            <h1>Error😡</h1>
+            <h1 style={{textAlign: "center", marginTop: "15%"}}>😊😊😊ERROR😊😊😊</h1>
         </div>
     )
 }

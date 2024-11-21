@@ -1,0 +1,128 @@
+/* Contenedor principal */
+.container{
+  width: 650px;
+  height: 440px;
+  margin-top: 90px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.479);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Tarjeta de Login */
+
+
+.card-body {
+  width: 500px;
+}
+
+/* Imagen en la tarjeta */
+.bg-login-image {
+  background-image: url('/path/to/your-image.jpg'); /* Coloca aquí tu imagen */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contenido de Login */
+
+/* Títulos */
+.text-center h1 {
+  font-size: 1.5rem;
+  color: #4e73df;
+  margin-bottom: 1rem;
+}
+
+/* Formulario de usuario */
+.form-control-user {
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #6e707e;
+}
+
+/* Check de recordar contraseña */
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #4e73df;
+}
+
+/* Botón de Login */
+.btnLogin {
+  font-size: 1rem;
+  border-radius: 2rem;
+  padding: 0.75rem 1rem;
+  width: 150px;
+
+}
+
+.btn-primary {
+  background-color: #4e73df;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #2e59d9;
+}
+
+/* Botones de Google y Facebook */
+.btn-google,
+.btn-facebook {
+  font-size: 0.9rem;
+  border-radius: 2rem;
+  padding: 0.75rem 1rem;
+}
+
+.btn-google {
+  background-color: #ea4335;
+  color: white;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+  color: white;
+}
+
+.btn-google:hover {
+  background-color: #d23f31;
+}
+
+.btn-facebook:hover {
+  background-color: #2d4373;
+}
+
+/* Enlaces de ayuda */
+.text-center .small {
+  font-size: 0.8rem;
+  color: #6e707e;
+}
+
+.text-center .small:hover {
+  color: #4e73df;
+  text-decoration: underline;
+}
+#usuarioForm, #contraForm{
+  margin-bottom: 7px;
+}
+.user{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user input {
+  margin-top: 10px;
+  width: 100%;
+
+}
+.botones{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+
+}
+.botones button{
+  width: 200px;
+  margin-top: 20px;
+
+}

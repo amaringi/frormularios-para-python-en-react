@@ -18,6 +18,9 @@ export default function Home() {
           <li>
             <a href="ingreso">INGRESOS</a>
           </li>
+          <li>
+            <a href="login">SALIR</a>
+          </li>
         </ul>
       </div>
       <Footer/>

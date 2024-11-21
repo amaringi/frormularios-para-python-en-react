@@ -3,9 +3,8 @@ import Footer from "./footer";
 export default function Usuario() {
   return (
     <div>
-      <div className="container">
         <div className="row">
-          <div className="col-md-6 formulario-container">
+          <div className="formulario-container">
             <h1 className="text-center">USUARIO</h1>
             <form id="signupForm">
               <div className="form-group">
@@ -51,7 +50,6 @@ export default function Usuario() {
             </form>
           </div>
         </div>
-      </div>
       <Footer/>
     </div>
   );

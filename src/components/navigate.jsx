@@ -7,7 +7,8 @@ export default function Navigate(){
 
     return(
         <div className="enlaces">
-            <Link to="/">Home</Link>
+            <Link to="/">Salir</Link>
+            <Link to="/home">Inicio</Link>
             <Link to="/usuario">Usuario</Link>
             <Link to="/categoria">Categoria</Link>
             <Link to="/gasto">Gasto</Link>

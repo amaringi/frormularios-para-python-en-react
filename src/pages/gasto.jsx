@@ -4,9 +4,8 @@ import Footer from "./footer";
 export default function Gasto(){
 
     return(
-    <div className="container">
         <div className="row">
-            <div className="col-md-6 mx-auto formulario-container">
+            <div className="formulario-container">
                 <h1 className="text-center">GASTOS</h1>
                 <form id="signupForm">
                     <div className="form-group">
@@ -31,6 +30,5 @@ export default function Gasto(){
             </div>
             <Footer/>
         </div>
-    </div>
     )
 }
