@@ -10,10 +10,10 @@ export default function Home() {
             <a href="usuario">USUARIO</a>
           </li>
           <li>
-            <a href="gasto">GASTOS</a>
+            <a href="categoria">CATEGORIA</a>
           </li>
           <li>
-            <a href="categoria">CATEGORIA</a>
+            <a href="gasto">GASTOS</a>
           </li>
           <li>
             <a href="ingreso">INGRESOS</a>

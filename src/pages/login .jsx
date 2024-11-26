@@ -6,9 +6,10 @@ import { useNavigate } from "react-router-dom";
 
 function Login() {
   
-  
+
   let { register, handleSubmit, formState: { errors }} = useForm();
   let navigate = useNavigate()
+
   let irRegistrarse = () => {
     navigate("/register")
   }
@@ -18,16 +19,25 @@ function Login() {
     console.log("datos del formulario: ");
     console.log(data);
     try {
-      let respuesta = await axios.post("http://localhost:8000/login",data);
-      alert("Bienvenido "+ respuesta.data.nombres);
-      navigate("/home")
+      let respuesta = await axios.get("http://localhost:8000/login",data);
       console.log("respuesta del servidor python")
-      console.log(respuesta);
+      console.log(respuesta.data);
+
+      const usuarioEncontrado = respuesta.data.find((usuario) => usuario.correo === data.correo && usuario.contrasena === data.contrasena)
+
+        if(usuarioEncontrado){
+          alert("Bienvenido "+usuarioEncontrado.nombres);
+          navigate("/home")
+        } else {
+          alert("Correo o contraseña incorrectos");
+        }
+
     } catch (error) {
-        console.log(errors);
+      console.log("Error en la autenticación:", error);
+      console.log(errors);
+
     }
   }
-
   return (
     <>
       <div className="container">
@@ -61,7 +71,7 @@ function Login() {
       <Footer />
   
     </>
-  );
+  )
 }
 
 export default Login;

@@ -22,7 +22,7 @@ export default function Register() {
       alert("¡Registro exitoso!");
       console.log("Respuesta del servidor:", respuesta.data);
 
-      navigate("/home");
+      navigate("/login");
     } catch (error) {
       console.error("Error al registrar:", error.response?.data || error.message);
 
